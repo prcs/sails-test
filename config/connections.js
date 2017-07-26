@@ -28,9 +28,9 @@ module.exports.connections = {
   * Installed by default.                                                    *
   *                                                                          *
   ***************************************************************************/
-  localDiskDb: {
-    adapter: 'sails-disk'
-  },
+  // localDiskDb: {
+  //   adapter: 'sails-disk'
+  // },
 
   /***************************************************************************
   *                                                                          *
@@ -62,13 +62,18 @@ module.exports.connections = {
     port: 27017,
     //user: 'username', //optional
     //password: 'password', //optional
-    database: 'your_mongo_db_name_here' //optional
+    database: 'db' //optional
   },
 
-   mongoProd: {
+   mongoProdRepl: {
     adapter: 'sails-mongo',
     url: process.env.mongoUrl
   },
+
+  //  mongoProdRepl: {
+  //   adapter: 'sails-mongo',
+  //   url: "mongodb://localhost:27017,localhost:27018,localhost:27019/aa?replicaSet=rs0"
+  // },
 
   /***************************************************************************
   *                                                                          *
