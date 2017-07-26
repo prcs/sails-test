@@ -33,5 +33,8 @@
     "url": "git://github.com/anonymous node/sails user/test-project-sails.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "",
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
