@@ -1,0 +1,26 @@
+{
+  "name": "test-project-sails",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "anonymous node/sails user"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/prcs/sails-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "^2.5.0",
+    "angular-moment": "^1.0.1",
+    "angular-route": "^1.6.5",
+    "angular": "^1.6.5",
+    "angular-mocks": "^1.6.5",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

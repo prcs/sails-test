@@ -17,6 +17,7 @@
 // (if you're using LESS with the built-in default config, you'll want
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
+  //'components/bootswatch/dist/css/bootstrap.css',
   'styles/**/*.css'
 ];
 
@@ -24,6 +25,12 @@ var cssFilesToInject = [
 // Client-side javascript files to inject in order
 // (uses Grunt-style wildcard/glob/splat expressions)
 var jsFilesToInject = [
+
+  'components/jquery/dist/jquery.js',
+  'components/angular/angular.js',
+  'components/angular-route/angular-route.js',
+  'components/angular-bootstrap/ui-bootstrap-tpls.min.js',
+  'components/bootstrap/dist/js/boostrap.js',
 
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
@@ -33,7 +40,9 @@ var jsFilesToInject = [
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
-  'js/**/*.js'
+  'js/**/*.js',
+
+  'js/modules/**/*.js'
 ];
 
 
