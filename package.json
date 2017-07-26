@@ -25,7 +25,7 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "sails lift"
+    "start": "npm install && sails lift"
   },
   "main": "app.js",
   "repository": {
