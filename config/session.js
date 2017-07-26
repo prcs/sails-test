@@ -74,8 +74,8 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
 
-  // adapter: 'mongo',
-  // url: 'mongodb://p1r2t3:psilva-993325099@cluster0-shard-00-00-aetrm.mongodb.net:27017/aa', // user, password and port optional
+  adapter: 'mongo',
+  url: process.env.mongoUrl || 'mongodb://localhost:27017', // user, password and port optional
 
   /***************************************************************************
   *                                                                          *
