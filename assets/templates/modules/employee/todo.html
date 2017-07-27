@@ -1,4 +1,4 @@
-<div class="container" ng-controller="TodoCtrl as todo">
+<div class="container" ng-controller="EmployeeController as todo">
     <div class="jumbotron">
         <h1 align="center">Todo Application {{teste}}</h1>
         <br>
@@ -7,6 +7,29 @@
 
             </div>
         </div>
+        <form method="post">
+            <div class="form-group">
+                <label>name</label>
+                <input type="text" class="form-control" name="name" ng-model="user.name">
+            </div>
+            <div class="form-group">
+                <label>empnum</label>
+                <input type="text" class="form-control" name="empnum" ng-model="user.empnum">
+            </div>
+            <div class="form-group">
+                <label>email</label>
+                <input type="text" class="form-control" name="email" ng-model="user.email">
+            </div>
+            <div class="form-group">
+                <label>street</label>
+                <input type="text" class="form-control" name="street" ng-model="address.street">
+            </div>
+            <div class="form-group">
+                <label>street</label>
+                <input type="text" class="form-control" name="number" ng-model="address.number">
+            </div>
+            <button type="button" class="btn btn-warning btn-lg" ng-click="salvar()">Signup</button>
+        </form>
     </div>
     
 </div>
