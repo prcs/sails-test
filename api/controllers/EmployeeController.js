@@ -6,6 +6,10 @@
  */
 
 module.exports = {
-	
+	remove: function(req, res) {
+        EmployeeService.remove(function(success) {
+            res.json(success);
+        });
+    }
 };
 

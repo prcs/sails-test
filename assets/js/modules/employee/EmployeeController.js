@@ -11,7 +11,7 @@ todoApp.controller(
             EmployeeFactory.states.save($scope.user,function(retorno) {
                     console.log(retorno);
             }, function(erro) {
-                console.log(erro);
+                console.log('erro ' + erro);
             });
         };
 }]);
