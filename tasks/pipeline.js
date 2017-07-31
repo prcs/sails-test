@@ -18,7 +18,8 @@
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
   //'components/bootswatch/dist/css/bootstrap.css',
-  'styles/**/*.css'
+  'styles/**/*.css',
+  'layout/**/*.css'
 ];
 
 
@@ -30,7 +31,7 @@ var jsFilesToInject = [
   'components/angular/angular.js',
   'components/angular-route/angular-route.js',
   'components/angular-bootstrap/ui-bootstrap-tpls.min.js',
-  'components/bootstrap/dist/js/boostrap.js',
+  'components/bootstrap/dist/js/bootstrap.min.js',
   'components/angular-resource/angular-resource.js',
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
@@ -42,7 +43,13 @@ var jsFilesToInject = [
   // will be injected here in no particular order.
   'js/**/*.js',
 
-  'js/modules/**/*.js'
+  'js/modules/**/*.js',
+
+  'layout/js/owl.carousel.min.js',
+  'layout/js/jquery.sticky.js',
+  'layout/js/jquery.easing.1.3.min.js',
+  'layout/js/main.js',
+  'layout/js/script.slider.js'
 ];
 
 
