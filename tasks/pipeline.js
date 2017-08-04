@@ -33,6 +33,7 @@ var jsFilesToInject = [
   'components/angular-bootstrap/ui-bootstrap-tpls.min.js',
   'components/bootstrap/dist/js/bootstrap.min.js',
   'components/angular-resource/angular-resource.js',
+  'components/angular-base64-upload/dist/angular-base64-upload.js',
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
 

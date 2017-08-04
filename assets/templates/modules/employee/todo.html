@@ -28,8 +28,20 @@
                 <label>street</label>
                 <input type="text" class="form-control" name="number" ng-model="address.number">
             </div>
+            <div class="form-group">
+                <label>picture</label>
+                <input type="file" class="form-control" name="picture" ng-model="picture" base-sixty-four-input>
+            </div>
             <button type="button" class="btn btn-warning btn-lg" ng-click="salvar()">Signup</button>
         </form>
+
+        <form role="form" method="post">
+            <input type="text" name="username" ng-model="user2.username" placeholder="Username">
+            <input type="text" name="email" ng-model="user2.email" placeholder="Email">
+            <input type="password" name="password" ng-model="user2.password" placeholder="Password">
+            <button type="button" ng-click="register()">Sign up</button>
+        </form>
+
     </div>
     
 </div>

@@ -26,6 +26,9 @@ module.exports = {
       },
       address:{
         type:'json'
+      },
+      picture:{
+        model:'picture'
       }
       
   }
